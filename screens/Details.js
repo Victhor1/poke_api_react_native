@@ -98,7 +98,7 @@ function Details({route}) {
                 </View>
                 <View style={{width:"100%", marginTop:20}}>
                     <Text style={{fontSize:22, textAlign:'justify', color:color == 'white' ? Colors.white : Colors.black}}>
-                        {desc.flavor_text.replace(/\s/g, ' ')}
+                        {desc.flavor_text.replace(/\s/g, ' ')}.
                     </Text>
                 </View>
                 <View style={{marginTop:20, width:"100%", flexDirection:'row'}}>
